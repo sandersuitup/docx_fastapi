@@ -1,8 +1,9 @@
-from fastapi import HTTPException
-from docx import Document
+import logging
 from io import BytesIO
 from zipfile import BadZipFile
-import logging
+
+from docx import Document
+from fastapi import HTTPException
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)

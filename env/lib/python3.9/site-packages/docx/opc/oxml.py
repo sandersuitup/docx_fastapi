@@ -11,8 +11,8 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 from lxml import etree
 
-from .constants import NAMESPACE as NS, RELATIONSHIP_TARGET_MODE as RTM
-
+from .constants import NAMESPACE as NS
+from .constants import RELATIONSHIP_TARGET_MODE as RTM
 
 # configure XML parser
 element_class_lookup = etree.ElementNamespaceClassLookup()

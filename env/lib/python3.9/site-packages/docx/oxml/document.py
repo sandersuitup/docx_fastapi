@@ -5,7 +5,7 @@ Custom element classes that correspond to the document part, e.g.
 <w:document>.
 """
 
-from .xmlchemy import BaseOxmlElement, ZeroOrOne, ZeroOrMore
+from .xmlchemy import BaseOxmlElement, ZeroOrMore, ZeroOrOne
 
 
 class CT_Document(BaseOxmlElement):

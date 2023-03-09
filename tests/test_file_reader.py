@@ -1,9 +1,11 @@
-import io
-import pytest
 import asyncio
+import io
 
+import pytest
 from fastapi import UploadFile
+
 from modules.file_reader import FileReader
+
 
 def test_read_file():
 	# Create a sample file in memory

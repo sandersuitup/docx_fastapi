@@ -9,7 +9,7 @@ from __future__ import absolute_import, print_function, unicode_literals
 from .blkcntnr import BlockItemContainer
 from .enum.style import WD_STYLE_TYPE
 from .oxml.simpletypes import ST_Merge
-from .shared import Inches, lazyproperty, Parented
+from .shared import Inches, Parented, lazyproperty
 
 
 class Table(Parented):

@@ -1,5 +1,6 @@
 from typing import List
 
+
 def is_valid_extension(filename: str, allowed_extensions: List[str]) -> bool:
 	"""
 	Check if the given filename has one of the allowed extensions.

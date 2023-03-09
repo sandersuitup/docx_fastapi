@@ -7,8 +7,7 @@ Provides a general interface to a *physical* OPC package, such as a zip file.
 from __future__ import absolute_import
 
 import os
-
-from zipfile import ZipFile, is_zipfile, ZIP_DEFLATED
+from zipfile import ZIP_DEFLATED, ZipFile, is_zipfile
 
 from .compat import is_string
 from .exceptions import PackageNotFoundError

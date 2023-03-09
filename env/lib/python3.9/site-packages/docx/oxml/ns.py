@@ -6,7 +6,6 @@ Namespace-related objects.
 
 from __future__ import absolute_import, print_function, unicode_literals
 
-
 nsmap = {
     "a": "http://schemas.openxmlformats.org/drawingml/2006/main",
     "c": "http://schemas.openxmlformats.org/drawingml/2006/chart",

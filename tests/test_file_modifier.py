@@ -1,6 +1,9 @@
 import io
+
 from docx import Document
+
 from modules.file_modifier import FileModifier
+
 
 def test_modify_docx():
 	# Create a sample .docx file with known contents

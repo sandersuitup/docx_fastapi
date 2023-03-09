@@ -1,9 +1,11 @@
 import io
+
 import pytest
-from fastapi import UploadFile, HTTPException
-from modules.file_reader import FileReader
+from fastapi import HTTPException, UploadFile
+
 from modules.file_modifier import FileModifier
 from modules.file_processor import DocxFileProcessor
+from modules.file_reader import FileReader
 
 
 def test_process_file():

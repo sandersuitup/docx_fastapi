@@ -1,6 +1,9 @@
-from fastapi import UploadFile, HTTPException
 from typing import List
+
+from fastapi import HTTPException, UploadFile
+
 from utils.helpers import is_valid_extension
+
 
 class FileReader:
 	def __init__(self, allowed_extensions: List[str]):

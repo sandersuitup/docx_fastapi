@@ -1,8 +1,10 @@
+import logging
+
 from fastapi import FastAPI, UploadFile
-from modules.file_reader import FileReader
+
 from modules.file_modifier import FileModifier
 from modules.file_processor import DocxFileProcessor
-import logging
+from modules.file_reader import FileReader
 
 # Create a FastAPI application instance
 app = FastAPI()

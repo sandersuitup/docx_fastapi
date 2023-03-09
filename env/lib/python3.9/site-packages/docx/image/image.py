@@ -11,8 +11,8 @@ import hashlib
 import os
 
 from ..compat import BytesIO, is_string
-from .exceptions import UnrecognizedImageError
 from ..shared import Emu, Inches, lazyproperty
+from .exceptions import UnrecognizedImageError
 
 
 class Image(object):
