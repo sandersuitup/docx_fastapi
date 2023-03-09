@@ -6,8 +6,7 @@ stored in XML element attributes. Naming generally corresponds to the simple
 type in the associated XML schema.
 """
 
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from ..exceptions import InvalidXmlError
 from ..shared import Emu, Pt, RGBColor, Twips

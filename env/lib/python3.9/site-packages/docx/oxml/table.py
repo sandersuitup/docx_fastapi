@@ -2,19 +2,29 @@
 
 """Custom element classes for tables"""
 
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from ..enum.table import WD_CELL_VERTICAL_ALIGNMENT, WD_ROW_HEIGHT_RULE
 from ..exceptions import InvalidSpanError
 from ..shared import Emu, Twips
 from . import parse_xml
 from .ns import nsdecls, qn
-from .simpletypes import (ST_Merge, ST_TblLayoutType, ST_TblWidth,
-                          ST_TwipsMeasure, XsdInt)
-from .xmlchemy import (BaseOxmlElement, OneAndOnlyOne, OneOrMore,
-                       OptionalAttribute, RequiredAttribute, ZeroOrMore,
-                       ZeroOrOne)
+from .simpletypes import (
+    ST_Merge,
+    ST_TblLayoutType,
+    ST_TblWidth,
+    ST_TwipsMeasure,
+    XsdInt,
+)
+from .xmlchemy import (
+    BaseOxmlElement,
+    OneAndOnlyOne,
+    OneOrMore,
+    OptionalAttribute,
+    RequiredAttribute,
+    ZeroOrMore,
+    ZeroOrOne,
+)
 
 
 class CT_Height(BaseOxmlElement):

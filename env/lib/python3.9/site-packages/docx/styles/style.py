@@ -4,8 +4,7 @@
 Style object hierarchy.
 """
 
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from ..enum.style import WD_STYLE_TYPE
 from ..shared import ElementProxy

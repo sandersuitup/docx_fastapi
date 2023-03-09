@@ -6,8 +6,7 @@ Enumerations used by DrawingML objects
 
 from __future__ import absolute_import
 
-from .base import (Enumeration, EnumMember, XmlEnumeration,
-                   XmlMappedEnumMember, alias)
+from .base import Enumeration, EnumMember, XmlEnumeration, XmlMappedEnumMember, alias
 
 
 class MSO_COLOR_TYPE(Enumeration):

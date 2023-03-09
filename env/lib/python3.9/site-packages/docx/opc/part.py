@@ -4,8 +4,7 @@
 Open Packaging Convention (OPC) objects related to package parts.
 """
 
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from ..oxml import parse_xml
 from .compat import cls_method_fn

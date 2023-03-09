@@ -4,8 +4,7 @@
 Core properties part, corresponds to ``/docProps/core.xml`` part in package.
 """
 
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from datetime import datetime
 

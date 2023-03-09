@@ -4,8 +4,7 @@
 Paragraph-related proxy types.
 """
 
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from ..enum.text import WD_LINE_SPACING
 from ..shared import ElementProxy, Emu, Length, Pt, Twips, lazyproperty

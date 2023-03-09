@@ -8,10 +8,8 @@ from ...enum.dml import MSO_THEME_COLOR
 from ...enum.text import WD_COLOR, WD_UNDERLINE
 from .. import parse_xml
 from ..ns import nsdecls, qn
-from ..simpletypes import (ST_HexColor, ST_HpsMeasure, ST_String,
-                           ST_VerticalAlignRun)
-from ..xmlchemy import (BaseOxmlElement, OptionalAttribute, RequiredAttribute,
-                        ZeroOrOne)
+from ..simpletypes import ST_HexColor, ST_HpsMeasure, ST_String, ST_VerticalAlignRun
+from ..xmlchemy import BaseOxmlElement, OptionalAttribute, RequiredAttribute, ZeroOrOne
 
 
 class CT_Color(BaseOxmlElement):

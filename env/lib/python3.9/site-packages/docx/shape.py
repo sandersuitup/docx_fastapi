@@ -5,8 +5,7 @@ Objects related to shapes, visual objects that appear on the drawing layer of
 a document.
 """
 
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from .enum.shape import WD_INLINE_SHAPE
 from .oxml.ns import nsmap
