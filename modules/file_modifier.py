@@ -26,6 +26,7 @@ class FileModifier:
 			modified_file.seek(0)
 
 			return modified_file.getvalue()
+		
 		except BadZipFile:
 			logger.error("Error processing file BadZipFile")
 			raise HTTPException(status_code=400, detail="Invalid file format. Only .docx files are allowed.")

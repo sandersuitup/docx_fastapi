@@ -39,7 +39,6 @@ class DocxFileProcessor:
 			return StreamingResponse(iter([modified_file_contents]),
 									media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
 									headers={"content-disposition": f"attachment; filename={file.filename}"})
-
 		except Exception as e:
 			# Log the error and raise a HTTPException with a 500 status code
 			logger.error(f"Error processing file {file.filename}: {e}")
